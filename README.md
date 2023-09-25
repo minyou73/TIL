@@ -7,4 +7,3 @@
 - Git
 - Linux
 - Markdown
-- visual studio
