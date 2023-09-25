@@ -35,4 +35,11 @@ git config --global user.name<이름>
 
 
 
-    
+## 원격저장소에 업로드하기
+- `remote add`
+    - `git remote add <원격저장소이름> <URL>`
+    -  원격저장소 주소를 origin이라는 이름으로 저장
+
+- `push`
+    - `git push <원격저장소이름> <브랜치이름>`
+    - 원격저장소에 브랜치를 업로드
