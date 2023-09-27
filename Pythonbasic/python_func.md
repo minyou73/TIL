@@ -17,13 +17,14 @@
     - 랜덤으로 글자 하나 받아온다
     - menu = random.choice(menus)
 
-    print(menu)   //chocie함수
+      print(menu)   //chocie함수
 
 - `range(n,n)`: 숫자 범위설정
     - numbers = range(1, 46)
 
 - `sample(  , n)`:어떠한 데이터프레임에서 랜덤하게 n개의 데이터(인덱스)를 뽑아야 할 때 사용
     - luchky number = random.sample(numbers, 6)
+    
     //numbers에서 6개 받아온다.
 
 - `sorted()`: 정렬 함수
@@ -31,6 +32,7 @@
 
  
 - `requesets`: 파이썬으로 HTTP 통신이 필요한 프로그램을 작성할 때 사용
+
 1. pip install requests//설치
 
 2. import requests//불러옴
