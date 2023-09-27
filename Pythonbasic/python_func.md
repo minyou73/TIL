@@ -7,14 +7,17 @@
     - example 메뉴출력
 
     - menus = ('김밥', '라면', '만두')
+
       random_number = random.randint(0,2) 
+
       print(menus[random_number]) //  배열로
 
 
 - `random.choice()`
     - 랜덤으로 글자 하나 받아온다
     - menu = random.choice(menus)
-        print(menu)   //chocie함수
+
+    print(menu)   //chocie함수
 
 - `range(n,n)`: 숫자 범위설정
     - numbers = range(1, 46)
