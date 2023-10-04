@@ -2,6 +2,7 @@
 
 > numbers = range(1, 46)
 
+
 // 1~ 46까지 범위 설정
 
 >lucky_number = random.sample(numbers, 6)
